@@ -226,12 +226,36 @@
     grid-column: 2/4;
   }
 
-  @media (min-width: 1141px) {
+    @media (min-width: 1341px){
     .responsive {
       display: none;
     }
     .item-3 > p{
       margin: 13px;
+    }
+    
+    .nav-container .left-half{
+      display: flex;
+    }
+    .nav-container button{
+      padding: 0 50px;
+      font-size: 24px;
+    }
+  }
+
+  @media (max-width: 1340px) {
+    .responsive {
+      display: none;
+    }
+    .item-3 > p{
+      margin: 13px;
+    }
+    .nav-container .left-half{
+      display: flex;
+    }
+    .nav-container button{
+      padding: 0 40px;
+      font-size: 16px;
     }
   }
 
@@ -242,7 +266,8 @@
     }
     
     .item-3 > p {
-      padding: 5px;
+      padding: 0px;
+      margin: 9px;
     }
     .item-4 > p {
       padding: 15px;
